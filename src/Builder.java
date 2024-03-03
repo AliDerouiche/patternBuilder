@@ -14,10 +14,6 @@ public class Builder {
 
     }
 
-    public String getFirstname() {
-        return firstname;
-    }
-
     public Builder setId(Integer id) {
         this.id = id;
         return this;
@@ -26,6 +22,10 @@ public class Builder {
     public Builder setFavouriteColour(String favouriteColour) {
         this.favouriteColour = favouriteColour;
         return this;
+    }
+
+    public String getFirstname() {
+        return firstname;
     }
 
     public Integer getId() {

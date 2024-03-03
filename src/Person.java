@@ -4,7 +4,7 @@ public class Person {
     private Integer age;
     private String address;
     private String favouriteColour;
-    private  Integer id;
+    private Integer id;
 
     @Override
     public String toString() {
@@ -23,8 +23,8 @@ public class Person {
         this.lastname = builder.getLastname();
         this.age = builder.getAge();
         this.address = builder.getAddress();
-        this.favouriteColour=builder.getFavouriteColour();
-        this.id=builder.getId();
+        this.favouriteColour = builder.getFavouriteColour();
+        this.id = builder.getId();
 
     }
 }

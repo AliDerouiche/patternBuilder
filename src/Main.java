@@ -8,8 +8,8 @@ Creare due oggetti Person e stamparli a video */
 
 public class Main {
     public static void main(String[] args) {
-    Person person = new Builder("Marco","Rossi",20,"Via Marco Rossi 20, Roma").setId(11).build();
-    Person person1 = new Builder("Paolo","Bianchi",25,"Via Paolo Bianchi 25, Milano").setFavouriteColour("Purple").build();
+        Person person = new Builder("Marco", "Rossi", 20, "Via Marco Rossi 20, Roma").setId(11).build();
+        Person person1 = new Builder("Paolo", "Bianchi", 25, "Via Paolo Bianchi 25, Milano").setFavouriteColour("Purple").build();
 
         System.out.println(person);
         System.out.println(person1);
