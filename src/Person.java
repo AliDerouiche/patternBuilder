@@ -6,22 +6,6 @@ public class Person {
     private String favouriteColour;
     private  Integer id;
 
-    public String getFavouriteColour() {
-        return favouriteColour;
-    }
-
-    public void setFavouriteColour(String favouriteColour) {
-        this.favouriteColour = favouriteColour;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     @Override
     public String toString() {
         return "Person{" +
@@ -43,5 +27,4 @@ public class Person {
         this.id=builder.getId();
 
     }
-
 }
